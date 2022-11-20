@@ -23,6 +23,6 @@ if __name__ == "__main__":
         {"_id": 20, "amount": 2},
         {"_id": 21, "amount": 5},
     ]
-
+    print(product_handler.menu_report())
     print(tab_handler.calculate_tab(table_1))
     print(tab_handler.calculate_tab(table_2))
