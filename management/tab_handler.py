@@ -1,5 +1,6 @@
 from menu import products
 
+
 def calculate_tab(tab):
     total = 0
     for item in tab:
