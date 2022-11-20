@@ -16,7 +16,7 @@ if __name__ == "__main__":
     }
     print(product_handler.add_product(products, **new_product))
     print(product_handler.add_product([], **new_product))
-
+    #print("All products", products)
     table_1 = [{"_id": 1, "amount": 5}, {"_id": 19, "amount": 5}]
     table_2 = [
         {"_id": 10, "amount": 3},
